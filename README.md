@@ -32,7 +32,7 @@ Tabela de conteúdos
 
 * Faça Download do Projeto ou clone usando comando
     ```bash
-    git clone <https://github.com/GabrielBorges105/DesafioNeveland>
+    git clone <https://github.com/GabrielBorges105/DesafioNeverland>
     ```
 
 

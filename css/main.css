@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+#card-slider .titleSlide {
+  font-size: 100px !important;
+  font-weight: 400;
+  letter-spacing: 20px;
+  color: #fff;
+}
+
+#card-slider .descSlide {
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#card-slider .btnSlide {
+  font-size: 14px;
+  border-radius: 30px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  padding: 20px 30px;
+}
+
+#card-slider img {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  #card-slider .titleSlide {
+    font-size: 30px !important;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #fff;
+  }
+  #card-slider .descSlide {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #fff;
+  }
+  #card-slider .btnSlide {
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 20px 30px;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-nav {
+  background: #e9e9e9;
+  font-size: 14px;
+  font-weight: bold !important;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.border-cinza {
+  border-color: #aaa !important;
+}
+
+.tituloSection {
+  font-size: 19px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.containerPage {
+  padding: 40px 80px !important;
+}
+
+#contato .descContato {
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+#contato .inputContato {
+  color: #fefefe !important;
+  width: 100%;
+  border-radius: 1px;
+  border: 0.5px solid #363636 !important;
+  padding: 15px 30px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: transparent !important;
+}
+
+.pagination a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.collection-item:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#card-slider .bannerHome {
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer {
+  background-color: #282828;
+  border-top: 1px solid #616161;
+}
+
+#footer a,
+#footer p {
+  font-size: 13px;
+  color: #616161;
+}
+
+#footer a,
+#footer .copyText {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#footer .copyText {
+  font-size: 11px;
+}
+
+#footer .linkSocial {
+  color: #ececec;
+  font-size: 18px;
+}
+
+#footer .mailGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px !important;
+}
+
+#footer .mailGroup .mailInput {
+  border: none !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 23px 30px;
+  width: 75%;
+  background-color: #414141;
+  color: #ececec !important;
+  outline: none !important;
+}
+
+#footer .mailGroup .mailButton {
+  border: none !important;
+  padding: 23px 30px;
+  width: 25%;
+  background-color: #d6dad9;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+  color: #ececec;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ececec;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ececec;
+}
+
+:-ms-input-placeholder {
+  color: #ececec;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .containerPage {
+    padding: 40px 20px !important;
+  }
+  .text-centerMobile {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */

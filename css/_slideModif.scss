@@ -1,0 +1,54 @@
+#card-slider {
+    .titleSlide {
+        font-size: 100px !important;
+        font-weight: 400;
+        letter-spacing: 20px;
+        color: #fff;
+    }
+    .descSlide{
+        font-size: 15px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .btnSlide{
+        font-size: 14px;
+        border-radius: 30px;
+        background-color: #fff;
+        border:none;
+        color: #000;
+        font-weight: bold;
+        padding: 20px 30px;
+    }
+}
+
+#card-slider img{
+    height: 100vh; object-fit: cover;
+}
+@media (max-width: 600px)
+{
+    #card-slider {
+        .titleSlide {
+            font-size: 30px !important;
+            font-weight: 400;
+            letter-spacing: 5px;
+            color: #fff;
+        }
+        .descSlide{
+            font-size: 12px;  
+            letter-spacing: 0.5px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .btnSlide{
+            font-size: 14px;
+            border-radius: 30px;
+            background-color: #fff;
+            border:none;
+            color: #000;
+            font-weight: bold;
+            padding: 20px 30px;
+        }
+    }
+}
+

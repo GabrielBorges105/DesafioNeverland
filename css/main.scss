@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import "_variaveis";
+@import "_slideModif";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-nav {
+    background: #e9e9e9;
+    font-size: 14px;
+    font-weight: bold !important;
+}
+
+.bg-black {
+    background: #000;
+}
+
+.border-cinza {
+    border-color: #aaa !important;
+}
+
+.tituloSection {
+    font-size: 19px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.containerPage {
+    padding: 40px 80px !important;
+}
+
+#contato {
+    .descContato {
+        font-size: 48px;
+        font-weight: lighter;
+    }
+
+    .inputContato {
+        color: #fefefe !important;
+        width: 100%;
+        border-radius: 1px;
+        border: 0.5px solid #363636 !important;
+        padding: 15px 30px;
+        font-weight: bold;
+        font-size: 15px;
+        background-color: transparent !important;
+    }
+}
+.pagination a:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.collection-item:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+#card-slider {
+    .bannerHome {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 30%;
+        align-items: center;
+    }
+}
+
+#footer {
+    background-color: #282828;
+    border-top: 1px solid #616161;
+
+    a,
+    p {
+        font-size: 13px;
+        color: #616161;
+    }
+
+    a,
+    .copyText {
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .copyText {
+        font-size: 11px;
+    }
+
+    .linkSocial {
+        color: #ececec;
+        font-size: 18px;
+    }
+
+    .mailGroup {
+        display: flex;
+        font-size: 13px !important;
+
+        .mailInput {
+            border: none !important;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            padding: 23px 30px;
+            width: 75%;
+            background-color: #414141;
+            color: #ececec !important;
+            outline: none !important;
+        }
+
+        .mailButton {
+            border: none !important;
+            padding: 23px 30px;
+            width: 25%;
+            background-color: #d6dad9;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            font-weight: bold;
+        }
+    }
+}
+
+::-webkit-input-placeholder {
+    color: #ececec;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ececec;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ececec;
+}
+
+:-ms-input-placeholder {
+    color: #ececec;
+}
+
+.text-right {
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    .containerPage {
+        padding: 40px 20px !important;
+    }
+
+    .text-centerMobile {
+        text-align: center;
+    }
+}
